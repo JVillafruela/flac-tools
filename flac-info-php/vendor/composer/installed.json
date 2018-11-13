@@ -1,0 +1,31 @@
+[
+    {
+        "name": "bluemoehre/flac-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bluemoehre/flac-php.git",
+            "reference": "8cb8c1c5ceadc2a5cd4151d0dc85ba5ea2753a8e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bluemoehre/flac-php/zipball/8cb8c1c5ceadc2a5cd4151d0dc85ba5ea2753a8e",
+            "reference": "8cb8c1c5ceadc2a5cd4151d0dc85ba5ea2753a8e",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7.*"
+        },
+        "time": "2017-02-24T20:32:15+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/Flac.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "description": "PHP class for native reading FLAC's metadata and Vorbis comment"
+    }
+]
